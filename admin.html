@@ -6,7 +6,11 @@
     <title>❌⭕❌❌.ADM</title>
     <link rel="stylesheet" href="admin.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 </head>
+<style>
+
+</style>
 <body>
     <div class="admin-container">
         <div class="admin-header">
@@ -36,6 +40,7 @@
                         <select id="genre" name="genre" required>
                             <option value="">Select genre</option>
                             <option value="releases">Releases</option>
+                            <option value="introo">Introo</option>
                             <option value="afroo">Afroo</option>
                             <option value="reggae">Reggae</option>
                             <option value="arbantone">Arbantone</option>
@@ -63,7 +68,6 @@
             </form>
         </div>
 
-        <!-- Existing Mixes -->
         <div class="admin-card">
             <div class="card-header">
                 <h2><i class="fas fa-music"></i> Existing Mixes</h2>
@@ -73,6 +77,8 @@
             </div>
         </div>
     </div>
+
+    <script src="admin.js"></script>
+
 </body>
-<script src="admin.js"></script>
 </html>
