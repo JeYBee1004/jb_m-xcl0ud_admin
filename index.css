@@ -1,0 +1,92 @@
+body {
+      font-family: 'Tektur', sans-serif;
+      background-color: black;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 420px;
+      background: rgba(0, 0, 0, 0.85);
+      border: 2px solid rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 40px;
+      text-align: center;
+      box-shadow: 0 0 30px rgba(255, 0, 0, 0.731);
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #aaa;
+      margin-bottom: 30px;
+    }
+
+    input {
+      width: 90%;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+      background-color: rgba(255, 255, 255, 0.1);
+      color: white;
+      font-size: 1em;
+    }
+
+    input::placeholder {
+      color: #bbb;
+    }
+
+    button {
+      width: 95%;
+      padding: 12px;
+      background-color: red;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 1.1em;
+      cursor: pointer;
+      transition: 0.3s;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background-color: #ff4444;
+      transform: scale(1.05);
+    }
+
+    .error-message {
+      color: #ff4444;
+      margin-top: 15px;
+      font-size: 0.9em;
+    }
+
+    .success-message {
+      color: #25D366;
+      margin-top: 15px;
+      font-size: 0.9em;
+    }
+
+    .toggle {
+      margin-top: 20px;
+      color: #aaa;
+      cursor: pointer;
+    }
+
+    .toggle:hover {
+      color: white;
+    }
+
+    /* Hide signup section by default */
+    #signup-section {
+      display: none;
+    }
