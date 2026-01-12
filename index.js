@@ -99,5 +99,3 @@ signupSection.addEventListener('submit', async (e) => {
     signupMsg.className = 'error-message';
   }
 });
-    });
-
