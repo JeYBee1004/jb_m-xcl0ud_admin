@@ -1,4 +1,4 @@
-// 🧩 Initialize Supabase clientdocument.addEventListener('contextmenu', function (e) {
+document.addEventListener('contextmenu', function (e) {
 e.preventDefault();
 });
 
@@ -100,3 +100,4 @@ signupSection.addEventListener('submit', async (e) => {
   }
 });
     });
+
